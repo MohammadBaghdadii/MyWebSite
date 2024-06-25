@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#languages">language</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="about">
+            <h1>About Me</h1>
+            <p>Mohammad Baghdadi , student of Computer Engineering </p>
+        </section>
+        <hr>
+        <section id="experience">
+            <h1>Experience</h1>
+            <p>I skipped my 5 month internship at Rah Avaran Javan Company </p>
+        </section>
+        <hr>
+        <section id="skills">
+            <h1>Skills</h1>
+            <p> Html </p>
+            <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:100%;height:10px"></div>
+              </div>
+              <p>Css</p>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:90%;height:10px"></div>
+              </div>
+              <p>WordPress</p>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:85%;height:10px"></div>
+              </div>
+              <p>Bootstrap</p>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:70%;height:10px"></div>
+              </div>
+              <p>SEO</p>
+              <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:60%;height:10px"></div>
+              </div>
+        </section>
+        <hr>
+        <section id="languages">
+            <h1>languages</h1>
+            <p>Persian </p>
+            <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:100%;height:10px"></div>
+            </div>
+            <p>Turkish </p>
+            <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:100%;height:10px"></div>
+            </div>
+            <p>English </p>
+            <div class="progress" style="height:10px">
+                <div class="progress-bar" style="width:60%;height:10px"></div>
+            </div>
+    </div>
+</body>
+</html>
